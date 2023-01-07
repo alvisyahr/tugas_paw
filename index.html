@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Take Home Javascript</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+	<style type="text/css">
+		*{
+			font-family: 'Inter', sans-serif;
+			padding: 0;
+			margin: 0;
+/*			border: 1px solid red;*/
+		}
+
+		#container{
+/*			border: 2px solid red; */
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			bottom: 0px;
+		}
+
+		#container2{
+/*			border: 1px solid green; */
+			display: flex; 
+			width: 100%; 
+			height: 100%;
+/*			position: relative;*/
+		}
+
+		.container3{
+/*			border: 1px solid red; */
+			text-align: left; 
+/*			margin-top: 206px;*/
+/*			position: absolute;*/
+			bottom: 0px;
+			position: absolute;
+			width: 50%;
+		}
+
+		.container4{
+/*			border: 1px solid red; */
+			text-align: right; 
+			bottom: 0px;
+			position: absolute;
+			width: 50%;
+		}
+
+		.number1{
+			background-color: black;
+			width: 50%;
+			color: white;
+			text-align: center;
+/*			height: 340px;*/
+		}
+
+		.number2{
+			background-color: #222325;
+			width: 50%;
+			color: white;
+			text-align: center;
+/*			height: 340px;*/
+		}
+
+		.angka{
+			margin-top: 50%; 
+		}
+
+		h1{
+			font-size: 80px;
+			font-weight: 700;
+		}
+
+		.T1{
+			background-color: #FFD600;
+/*			height: 6px;*/
+			color: black;
+			height: 24px;
+			width: 24px;
+			text-align: center;
+/*			padding: 6px;*/
+/*			position: relative;*/
+		}
+
+		.T11{
+/*			position: absolute;*/
+			margin-top: 2px;
+/*			margin-left: 20px;*/
+
+		}
+
+		.T2{
+			background-color: #222325;
+			width: 100%;
+/*			height: 24px;*/
+/*			border: 1px solid red;*/
+/*			padding: 6px;*/
+		}
+
+		.T22{
+			margin-top: 5px;
+			font-weight: 400;
+/*			padding: 6px;*/
+		}
+
+		.nama{
+			background-color: #222325;
+			width: 100%;
+			height: 76px;
+			margin-top: 16px;
+		}
+
+		.name{
+			text-align: left;
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+
+		.SSJ4{
+/*			border: 1px solid red;*/
+			height: 24px;
+			display: flex;
+/*			position: relative;*/
+		}
+
+
+		@media screen and (min-width: 340px), screen and (max-height: 640px) {
+			.angka{
+				margin-top: 40vh;
+			}
+
+			.T22{
+				font-size: 10px;
+			}
+
+
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="container2">
+			<div class="number1">
+				<h1 style=""  class="angka">0</h1>
+				<div class="container3">
+					<div class="SSJ4">
+						<div class="T1"><p class="T11">R</p></div>
+						<div class="T2"><p class="T22" style="margin-left:20px ;">Sunu Pinasthika Fajar</p></div>
+					</div>
+					<div class="SSJ4">
+						<div class="T1"><p class="T11">L</p></div>
+						<div class="T2"><p class="T22" style="margin-left:20px ;">Usman Rubiantoro</p></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="number2">
+				<h1 class="angka">0</h1>
+				<div class="container4">
+					<div class="SSJ4">
+							<div class="T2" style="background-color: #535456;"><p class="T22" style="margin-right:20px ;">Suparna</p></div>
+							<div class="T1"><p class="T11">R</p></div>
+					</div>
+					<div class="SSJ4">
+							<div class="T2" style="background-color: #535456;"><p class="T22" style="margin-right:20px ;">Fariq Hutaba</p></div>
+							<div class="T1"><p class="T11">L</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="takehomejs.js"></script>
+</body>
+</html>
